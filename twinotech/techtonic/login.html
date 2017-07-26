@@ -1,0 +1,158 @@
+
+<html>
+    <head>
+        <title> Twin-O-Tech</title>
+<!--  <link rel="stylesheet" type="text/css" href="style.css">
+   -->     
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <style>
+      body{
+        background-color: #282f2f;
+    }
+      label{
+          color: #e0e2e2;
+          
+      }
+      h1 {
+          color: azure;
+          align-content: center;
+          text-shadow: 
+      }
+      #h1 {
+          position: absolute;
+          text-align: center;
+          left: 555px;
+          top: 70px;
+    width: 250px;
+    height: 74px;
+    background-color: #2b4ba0;
+    box-shadow: 10px 10px 5px #888888;
+          
+}
+     
+       .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      filter: grayscale(90%);
+     width: 100%;
+      height: 85%;
+      margin: auto;
+  }
+      #form1{
+        position: absolute;
+          left: 590px;
+          top: 200px;   
+          
+          
+      }
+      #onSpot{
+          position: relative;
+          left: -5px;
+          top: 3px;
+      }
+      
+       #subm{
+          position: relative;
+          left: 17px;
+          top: 3px;
+      }
+      #cover{
+          position: relative;
+          height: 10px;
+          width: 10px;
+          top: 13px;
+          right: 17px;
+          color: darkgrey;
+          
+      }
+      #posButton{
+          
+        position: relative;
+          left: -11px;
+      }
+      
+        </style>
+        <script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip(); 
+    
+    
+  
+});
+        
+            
+    
+    
+</script>
+    </head>
+    <body> 
+<div class="container">
+  <br>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval = "1800" >
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="images/Think%20Twice,%20Code%20Once!%20by%20pcbots.jpg" alt="Chania" width="1200px" height="500px">
+      </div>
+
+      <div class="item">
+        <img src="images/Programmers%20never%20die%20HD%20Wallpaper.png" alt="Chania" width="800px" height="600px">
+      </div>
+    
+      <div class="item">
+        <img src="images/5n1e0pP5sb.jpg" alt="Flower" width="800px" height="600px">
+      </div>
+
+      <div class="item">
+        <img src="images/code-wallpaper-14.jpg" alt="Flower" width="100" height="150">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div><!--img src ="images/sinhgad.jpg"></img>-->
+    <div class="col-sm-12"> <div id = "h1"> 
+    <h1 align="middle"> Twin-O-Tech </h1></div>
+        
+        
+        
+    <form name="frm1" method ="post" align="middle"  class="form-horizontal" id="form1" action="instr.html">
+        <label id="credentials"><i>Username:</i></label>
+        <br>
+        <div id ="cover"><i class="glyphicon glyphicon-user"></i></div>
+    <input type="email" id="emailId" maxlength="10" width="10" placeholder="Username" >
+             <br>
+        <hr width ="19%">
+    <label><i>Password:</i></label>
+        <br>
+        <div id="cover"><i class="glyphicon glyphicon-lock"></i></div>
+        
+        <input type="password" id="pass"   maxlength="10" width="10" placeholder="Password">
+        <br>
+        <hr width ="19%"><div id ="posButton">
+       <span class="glyphicon glyphicon-circle-arrow-right" id="subm"></span><input type="submit" value="proceed" class="btn btn-primary btn-md" style="padding:5px 12px 6px 20px">  <a href="Signup.html" class="btn btn-Primary"><span class="glyphicon glyphicon-circle-arrow-right" id="onSpot"></span>On-Spot</a></div>
+            
+        </div>
+        
+        
+        </form>
+    
+    </body>
